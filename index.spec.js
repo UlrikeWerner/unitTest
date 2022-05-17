@@ -37,7 +37,7 @@ describe("first Unit Test greet()", () => {
     expect(output).toEqual("Hello stranger!");
   });
 
-  it("test no parameter", () => {
+  it("test no argument", () => {
     //when
     const output = greet();
     //then
